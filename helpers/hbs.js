@@ -12,7 +12,7 @@ module.exports = {
         return str;
     },
     stripTags: function(input){
-    return input.replace(/<(?:.|\n)*?>/gm,' ');
+    return input.replace(/<(?:.|\n)*?>|&nbsp;|&#39;|&[^+]/g," ");
     },
      formatDate: function(date, format){
         return moment(date).format(format);
