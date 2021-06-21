@@ -12,7 +12,7 @@
     "@ckeditor/ckeditor5-build-classic": "20.0.0",
     "@fortawesome/fontawesome-free": "5.3.1",
     "body-parser": "1.18.3",
-    "ckeditor4": "4.14.1",
+    "ckeditor4": "4.16.1",
     "cookie-parser": "1.4.3",
     "express": "4.16.3",
     "express-handlebars": "3.0.0",
